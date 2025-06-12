@@ -7,6 +7,7 @@
 
 /* Add your chosen Google Font @import here, e.g.: */
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
 main {
    /* margin-top: 68px; /* Adjust this value to match your header's actual height */
@@ -21,7 +22,7 @@ html, body {
 }
 
 body {
-    font-family: 'Luckiest Guy', cursive, sans-serif;
+    font-family: 'Caprasimo', sans-serif;
     background-color: #292929;
     color: #e4e2dd;
 }
@@ -165,10 +166,8 @@ body {
     position: absolute;
     bottom: 40px;
     left: 50px;
-    font-family: 'Luckiest Guy', cursive, sans-serif;
     color: #e4e2dd;
     /* font-size: 3.5em; Removed to manage size of elements inside */
-    text-transform: lowercase;
     z-index: 50;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     pointer-events: none; /* Allows clicks to pass through to carousel items initially */
@@ -198,7 +197,6 @@ body {
     font-size: clamp(1rem, 1.5vw, 1.5rem);
     color: #e4e2dd;
     margin: 0;
-    text-transform: capitalize;
     pointer-events: auto;
 }
 
@@ -638,7 +636,6 @@ footer {
     margin: 0;
     font-weight: normal; /* Removes default bold for h6 */
     font-size: 1em; /* Ensures consistency with other text */
-    font-family: 'Luckiest Guy', cursive, sans-serif; /* Apply your desired font */
 }
 
 .footer-left h6 a {
